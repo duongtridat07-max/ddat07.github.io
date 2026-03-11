@@ -1,31 +1,70 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Giao diện học trực tuyến</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Giao dien tho</title>
+    <style>
+        /* Chỉ dùng CSS để chia 2 vùng Trái - Phải */
+        .container {
+            display: flex;
+        }
+
+        /* Vùng bên trái */
+        .sidebar {
+            width: 30%; /* Chiếm 30% chiều rộng */
+            border-right: 1px solid black; /* Kẻ vạch chia đôi */
+            height: 100vh; /* Cao hết màn hình */
+        }
+
+        /* Vùng bên phải */
+        .content {
+            width: 70%; /* Chiếm 70% còn lại */
+            padding-left: 20px;
+        }
+
+        /* Tô màu xám cho mục đang chọn giống ảnh mẫu */
+        .active {
+            background-color: #808080;
+            color: white;
+        }
+
+        /* Định dạng danh sách menu */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="wrapper">
-        <nav class="sidebar">
+    <div class="container">
+        
+        <div class="sidebar">
             <ul>
-                <li class="active"><a href="#">Trang chủ</a></li>
-                <li><a href="#">Khóa học</a></li>
-                <li><a href="#">Diễn đàn</a></li>
-                <li><a href="#">Liên hệ</a></li>
+                <li class="active">Trang chủ</li>
+                <li>Khóa học</li>
+                <li>Diễn đàn</li>
+                <li>Liên hệ</li>
             </ul>
-        </nav>
+        </div>
 
-        <main class="main-content">
+        <div class="content">
             <h1>Học trực tuyến Công nghệ thông tin</h1>
+            <p>Chào bạn nhé! Hôm nay chúng ta sẽ cùng tìm hiểu về CNTT thật nhẹ nhàng.</p>
+            
             <h3>Các khóa học:</h3>
             <ol>
                 <li>Lập trình cơ bản</li>
                 <li>Cấu trúc dữ liệu</li>
                 <li>Thiết kế web</li>
             </ol>
-        </main>
+        </div>
+
     </div>
 
 </body>
