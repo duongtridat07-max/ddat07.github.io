@@ -1,4 +1,3 @@
-# Báo cáo kết quả phát triển giao diện Apple
 
 ## 1. Công cụ AI sử dụng
 * **Tên AI:** Gemini 3 Flash (Google)
