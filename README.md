@@ -1,20 +1,16 @@
-# Bài tập: Thiết kế Giao diện Apple (Sản phẩm MacBook Neo)
+# Bài tập: Thiết kế Giao diện Apple (MacBook Neo)
 
 Dự án này thực hiện việc tái hiện lại giao diện giới thiệu sản phẩm của Apple bằng ngôn ngữ HTML và CSS cơ bản.
 
 ## 1. Thành phần dự án
-* **index.html**: Chứa cấu trúc khung của trang web (Header, Navigation, Main Content).
-* **style.css**: Chứa mã nguồn định dạng giao diện, màu sắc và bố cục căn giữa.
+* **index.html**: Cấu trúc khung của trang web.
+* **style.css**: Mã nguồn định dạng giao diện và bố cục.
+* **macbook.png**: Hình ảnh sản phẩm đã được tách nền.
 
-## 2. Các chức năng chính
-* Thanh thông báo quốc gia (Top Banner) có nút Tiếp tục.
-* Thanh điều hướng (Navigation Bar) chứa các liên kết sản phẩm.
-* Phần giới thiệu sản phẩm MacBook Neo với tiêu đề và hình ảnh căn giữa.
-* Sử dụng nút bấm bo góc (Border-radius) theo phong cách hiện đại.
-
-## 3. Cách xem giao diện
-Bạn có thể truy cập trực tiếp vào link GitHub Pages của dự án này để xem kết quả hiển thị cuối cùng.
+## 2. Thông tin sinh viên
+* **Họ và tên:** Dương Trí Đạt
+* **Lớp:** Sinh viên năm nhất - Khoa CNTT
+* **Dự án:** Thiết kế giao diện Landing Page Apple Rep 1:1.
 
 ---
-*Người thực hiện: Dương Trí Đạt*
-*Lớp: Sinh viên năm nhất - Khoa CNTT*
+*Ghi chú: Nội dung được thực hiện nhằm mục đích học tập và thực hành kỹ năng Frontend cơ bản.*
