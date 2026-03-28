@@ -16,5 +16,5 @@ Dự án này thực hiện việc tái hiện lại giao diện giới thiệu 
 Bạn có thể truy cập trực tiếp vào link GitHub Pages của dự án này để xem kết quả hiển thị cuối cùng.
 
 ---
-*Người thực hiện: Hiếu Astrid*
+*Người thực hiện: Dương Trí Đạt*
 *Lớp: Sinh viên năm nhất - Khoa CNTT*
